@@ -240,7 +240,7 @@ void reset_game_screen(int players_cnt)
     {
         print_at_pos(positions[i].cardscore_pos, "  "); // чистим очки карт
         print_at_pos(positions[i].cardscore_pos, "0", 4); // пишем 0 очков карт
-        print_at_pos(positions[i].cards_pos, "        "); // чистим карты
+        print_at_pos(positions[i].cards_pos, "          "); // чистим карты
         print_at_pos({center.x - 7, center.y}, "                                      "); // чистим собщение посередине
     }
 }
